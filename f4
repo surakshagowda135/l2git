@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "enter the day"
+read day
+
+if [[ day == 'monday' || day == 'friday' ]] ; then
+	echo "weekday"
+else
+	echo "weekoff"
+fi
+
